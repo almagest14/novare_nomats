@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+    <definition name="defaultTemplate" template="/WEB-INF/views/layouts/template.html">
+        <put-attribute name="header" value="fragments/header :: header" />
+        <put-attribute name="footer" value="/WEB-INF/views/fragments/footer.html" />
+    </definition>
+    <!-- Index page
+    <definition name="signin" extends="defaultTemplate">
+        <put-attribute name="content" value="/signin.html :: content" type="thymeleaf" />
+        <put-attribute name="body" value="/book/searchForm.jsp"/>
+    </definition>
+    -->
+    <!--
+    <definition name="configure" 
+        template="/WEB-INF/pages/configuration/configureDhis2.jsp" />
+    -->
+
+</tiles-definitions>
