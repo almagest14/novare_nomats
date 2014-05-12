@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="nomats:war exploded">
-    <output-path>$PROJECT_DIR$/target/nomats-1.0.0</output-path>
+    <output-path>$PROJECT_DIR$/target/my-artifact-0.0.1-SNAPSHOT</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="nomats/web/Web" />
       <element id="directory" name="WEB-INF">
@@ -39,6 +39,7 @@
           <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final" />
           <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.2.Final" />
           <element id="library" level="project" name="Maven: org.hsqldb:hsqldb:2.3.0" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.9" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-jpa:1.4.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.6.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.5" />
@@ -53,6 +54,19 @@
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.9" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.9" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:14.0.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-io:1.0.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-utils:2.0.5" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-core:3.0.3" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-api:3.0.3" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-request-api:1.0.3" />
+          <element id="library" level="project" name="Maven: commons-digester:commons-digester:2.0" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.0" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-jsp:3.0.3" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-servlet:3.0.3" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-request-servlet:1.0.3" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-template:3.0.3" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-autotag-core-runtime:1.1.0" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-request-jsp:1.0.3" />
         </element>
       </element>
     </root>
